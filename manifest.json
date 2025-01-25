@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "English to Marathi Translator",
+  "author": "Sujal Sanjay Ghorpade",
+  "version": "1.0",
+  "description": "Translate selected English text to Marathi.",
+  "permissions": ["activeTab", "scripting", "contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
